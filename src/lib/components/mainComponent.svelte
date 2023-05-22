@@ -14,6 +14,10 @@
         font-family: Base;
     src: url(../../fonts/BaseNeueTrial-SuperExpBlack.ttf)
     }
+    @font-face{
+        font-family: Light;
+    src: url(../../fonts/BaseNeueTrial-Light.ttf)
+    }
     :global(body){
         margin: 0px;
         padding: 0;
@@ -50,7 +54,7 @@
         font-family: Base;
         text-align: center;
         margin: 0.2em;
-        margin-bottom: 0.1em;
+        margin-bottom: 1em;
         color:#0d0d0dac;
         font-size: 3em;
     }
